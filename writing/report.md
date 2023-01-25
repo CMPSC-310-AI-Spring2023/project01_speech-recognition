@@ -16,6 +16,8 @@ TODO:
 
 - LED
 
+- Mic https://www.amazon.com/uxcell-Microphone-Detection-Digital-Projects/dp/B07VS3SLKP/ref=sr_1_2?crid=3UMV7Z0Y7Z88C&keywords=arduino+mic+sensor&qid=1674678403&sprefix=adruino+mic+senso%2Caps%2C199&sr=8-2
+
 - 220 ohm resistor
 
 - hook-up wires
