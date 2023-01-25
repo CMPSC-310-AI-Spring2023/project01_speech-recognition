@@ -29,6 +29,10 @@ TODO:
 TODO:
 Describe the application you have chosen to develop and provide a motivation for why it is a useful application. Include  references of all sources you have used throughout this project (URLs are sufficient).
 
+The application we have decided to develop utilizes a mic and led to allow the user to say alloud a color, and then display the appropiate color. 
+
+https://docs.arduino.cc/built-in-examples/basics/Fade
+
 ## Agent
 
 TODO:
