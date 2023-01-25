@@ -24,6 +24,14 @@ TODO:
 
 - breadboard
 
+- SparkFun Electret Microphone Breakout https://www.sparkfun.com/products/12758
+
+- SparkFun Mono Audio Amp Breakout https://www.hackster.io/products/buy/7027?s=BAhJIhIxNTg4OCxQcm9qZWN0BjoGRUY%3D%0A
+
+- Speaker: 0.25W, 8 ohms https://www.hackster.io/products/buy/277?s=BAhJIhIxNTg4OCxQcm9qZWN0BjoGRUY%3D%0A
+
+- Breadboard (generic) https://www.hackster.io/products/buy/42749?s=BAhJIhIxNTg4OCxQcm9qZWN0BjoGRUY%3D%0A
+
 ## Arduino Project
 
 TODO:
