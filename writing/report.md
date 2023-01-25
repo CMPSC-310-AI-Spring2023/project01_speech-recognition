@@ -14,7 +14,13 @@ TODO:
 
 - Arduino board
 
-- in an itemized list, specify specific sensors, motors, etc. to be used in your project
+- LED
+
+- 220 ohm resistor
+
+- hook-up wires
+
+- breadboard
 
 ## Arduino Project
 
