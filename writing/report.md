@@ -41,6 +41,8 @@ The application we have decided to develop utilizes a mic and led to allow the u
 
 https://docs.arduino.cc/built-in-examples/basics/Fade
 
+https://www.hackster.io/msb4180/speech-recognition-and-synthesis-with-arduino-2f0363
+
 ## Agent
 
 TODO:
