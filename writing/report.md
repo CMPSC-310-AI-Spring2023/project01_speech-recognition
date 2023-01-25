@@ -16,13 +16,9 @@ TODO:
 
 - LED. https://www.amazon.com/DiCUNO-450pcs-Colors-Emitting-Assorted/dp/B073QMYKDM/ref=sr_1_3?keywords=arduino+led&qid=1674678564&sr=8-3
 
-- Mic https://www.amazon.com/uxcell-Microphone-Detection-Digital-Projects/dp/B07VS3SLKP/ref=sr_1_2?crid=3UMV7Z0Y7Z88C&keywords=arduino+mic+sensor&qid=1674678403&sprefix=adruino+mic+senso%2Caps%2C199&sr=8-2
-
 - 220 ohm resistor
 
 - hook-up wires
-
-- breadboard
 
 - SparkFun Electret Microphone Breakout https://www.sparkfun.com/products/12758
 
