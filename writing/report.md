@@ -12,7 +12,7 @@
 
 TODO:
 
-- Arduino board
+- Arduino board: https://docs.arduino.cc/hardware/due
 
 - LED. https://www.amazon.com/DiCUNO-450pcs-Colors-Emitting-Assorted/dp/B073QMYKDM/ref=sr_1_3?keywords=arduino+led&qid=1674678564&sr=8-3
 
