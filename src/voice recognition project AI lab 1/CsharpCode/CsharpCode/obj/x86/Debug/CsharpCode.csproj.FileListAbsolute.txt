@@ -1,0 +1,17 @@
+D:\Arduino based Projects\Voice Recogniton\CsharpCode\CsharpCode\bin\Debug\CsharpCode.exe
+D:\Arduino based Projects\Voice Recogniton\CsharpCode\CsharpCode\bin\Debug\CsharpCode.pdb
+D:\Arduino based Projects\Voice Recogniton\CsharpCode\CsharpCode\obj\x86\Debug\CsharpCode.Form1.resources
+D:\Arduino based Projects\Voice Recogniton\CsharpCode\CsharpCode\obj\x86\Debug\CsharpCode.Properties.Resources.resources
+D:\Arduino based Projects\Voice Recogniton\CsharpCode\CsharpCode\obj\x86\Debug\CsharpCode.csproj.GenerateResource.Cache
+D:\Arduino based Projects\Voice Recogniton\CsharpCode\CsharpCode\obj\x86\Debug\CsharpCode.exe
+D:\Arduino based Projects\Voice Recogniton\CsharpCode\CsharpCode\obj\x86\Debug\CsharpCode.pdb
+D:\Arduino based Projects\Voice Recogniton\CsharpCode\CsharpCode\obj\x86\Debug\CsharpCode.csprojResolveAssemblyReference.cache
+D:\Junior_Year\Spring_Sem\AI\Voice-control-project-using-Arduino-and-C--master\CsharpCode\CsharpCode\bin\Debug\CsharpCode.exe
+D:\Junior_Year\Spring_Sem\AI\Voice-control-project-using-Arduino-and-C--master\CsharpCode\CsharpCode\bin\Debug\CsharpCode.pdb
+D:\Junior_Year\Spring_Sem\AI\Voice-control-project-using-Arduino-and-C--master\CsharpCode\CsharpCode\obj\x86\Debug\CsharpCode.csproj.AssemblyReference.cache
+D:\Junior_Year\Spring_Sem\AI\Voice-control-project-using-Arduino-and-C--master\CsharpCode\CsharpCode\obj\x86\Debug\CsharpCode.Form1.resources
+D:\Junior_Year\Spring_Sem\AI\Voice-control-project-using-Arduino-and-C--master\CsharpCode\CsharpCode\obj\x86\Debug\CsharpCode.Properties.Resources.resources
+D:\Junior_Year\Spring_Sem\AI\Voice-control-project-using-Arduino-and-C--master\CsharpCode\CsharpCode\obj\x86\Debug\CsharpCode.csproj.GenerateResource.cache
+D:\Junior_Year\Spring_Sem\AI\Voice-control-project-using-Arduino-and-C--master\CsharpCode\CsharpCode\obj\x86\Debug\CsharpCode.csproj.CoreCompileInputs.cache
+D:\Junior_Year\Spring_Sem\AI\Voice-control-project-using-Arduino-and-C--master\CsharpCode\CsharpCode\obj\x86\Debug\CsharpCode.exe
+D:\Junior_Year\Spring_Sem\AI\Voice-control-project-using-Arduino-and-C--master\CsharpCode\CsharpCode\obj\x86\Debug\CsharpCode.pdb
