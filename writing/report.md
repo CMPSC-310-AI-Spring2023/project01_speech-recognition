@@ -4,9 +4,12 @@
 
 ### Timeline
 
-| Timeline  | Tasks |
-| ----------- | ----------- |
-|   dates    |    task 1   |
+| Timeline        | Tasks            |
+| --------------- | ---------------- |
+| January 27th    | project planning |
+| February 1st    | receive material and start assembling things on the ardunio board |
+| February 5st    | adding code to the project |
+| January 27th    | project planning |
 
 ### Hardware 
 

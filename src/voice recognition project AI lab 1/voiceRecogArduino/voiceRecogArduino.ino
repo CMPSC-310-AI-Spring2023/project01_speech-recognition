@@ -1,14 +1,3 @@
-/* This Program is about controlling leds states ON and OFF using voice recognition library of c# (using system.speech) 
- * Exciting Part is you dont need to have any external module to transmit data to arduino because you can easily  
- * use your builtin computer microphone or earphones microphone.   
- *  
- * This Program is just to give basic idea specially to beginners and then its your own creativity how you use it in a useful way.
- * Keep Learning, Share, think and Repeat
- * Enjoy !
- * 
- * By Jalal Mansoori
- */
-
 const int blueLed=10;
 const int redLed=9;
 const int greenLed=8;
@@ -16,7 +5,6 @@ const int greenLed=8;
 char incomingData='0';
  
 void setup() {
-  // put your setup code here, to run once:
 //getting leds ready
 Serial.begin(9600);
 pinMode(blueLed, OUTPUT);
@@ -78,6 +66,7 @@ void loop() {
       digitalWrite(greenLed, LOW);
       break;
 
+      //Show off mode
       case 'F':
       digitalWrite(blueLed, HIGH);
       delay(200);
