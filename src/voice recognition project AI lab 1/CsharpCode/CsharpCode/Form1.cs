@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using System.IO.Ports; 
+using System.IO.Ports;
 // This library is for connecting c# and Arduino to transmit and receive data through ports
 //Below are libraries for voice recognition
 using System.Speech;
@@ -14,10 +14,10 @@ namespace CsharpCode
         //Creating objects
         SerialPort myPort = new SerialPort();
         SpeechRecognitionEngine re = new SpeechRecognitionEngine();
-        SpeechSynthesizer ss = new SpeechSynthesizer(); // When you want program to talk back to you 
+        SpeechSynthesizer ss = new SpeechSynthesizer(); // When you want program to talk back to you
         Choices commands = new Choices(); // This is an important class as name suggest we will store our commands in this object
-        
-       
+
+
         public Form1()
         {
             InitializeComponent();
@@ -25,14 +25,14 @@ namespace CsharpCode
             myPort.PortName = "COM3"; // My Port name in Arduino IDE selected COM5 you need to change Port name if it is different  just check in arduinoIDE
             myPort.BaudRate = 9600;  // This Rate is Same as arduino Serial.begin(9600) bits per second
             processing();
-            
+
         }
 
-        // Defined Function processing where main instruction will be executed ! 
+        // Defined Function processing where main instruction will be executed !
         void processing()
-        { 
+        {
             //First of all storing commands
-            commands.Add(new string[] { "Blue On", "Red On", "Green On", "Blue Off", "Red Off", "Green Off", "Exit", "All On", "All Off","Good Bye", "Hello", "Show off", "Good morning", "Good night" });
+            commands.Add(new string[] { "Blue On", "Red On", "Green On", "Blue Off", "Red Off", "Green Off", "Exit", "All On", "All Off","Good Bye", "Hello", "Show off", "Good morning", "Good night", "Demo One" });
 
             //Now we will create object of Grammer in which we will pass commands as parameter
             Grammar gr = new Grammar(new GrammarBuilder(commands));
@@ -42,15 +42,15 @@ namespace CsharpCode
             re.LoadGrammarAsync(gr);
             re.SetInputToDefaultAudioDevice();// As Name suggest input device builtin microphone or you can also connect earphone etc...
             re.SpeechRecognized += new EventHandler<SpeechRecognizedEventArgs>(re_SpeechRecognized);
-            
-            
+
+
         }
 
         void re_SpeechRecognized(object sender, SpeechRecognizedEventArgs e)
         {
             switch(e.Result.Text)
             {
-                ////For Led State ON 
+                ////For Led State ON
                 // For blue led
                 case "Blue On":
                     sendDataToArduino('B');
@@ -65,8 +65,8 @@ namespace CsharpCode
                 case "Green On":
                     sendDataToArduino('G');
                     break;
-                
-                //For Led State OFF 
+
+                //For Led State OFF
                 // For blue led
                 case "Blue Off":
                     sendDataToArduino('Z');
@@ -96,7 +96,7 @@ namespace CsharpCode
                     sendDataToArduino('F');
                     break;
 
-                //Program will talk back 
+                //Program will talk back
                 case "Good Bye":
                     //Console.WriteLine("Bye");
                     ss.SpeakAsync("Good Bye see you again"); // speech synthesis object is used for this purpose
@@ -117,6 +117,15 @@ namespace CsharpCode
                     ss.SpeakAsync("All light off"); // speech synthesis object is used for this purpose
                     sendDataToArduino('M');
                     break;
+
+                case "Demo One":
+                    ss.SpeakAsync("Playing"); // speech synthesis object is used for this purpose
+                    sendDataToArduino('N');
+                    break;
+
+
+
+
 
                 // To Exit Program using Voice :)
                 case "Exit":
@@ -142,7 +151,7 @@ namespace CsharpCode
         }
 
         private void btnStart_Click(object sender, EventArgs e)
-        {            
+        {
             re.RecognizeAsync(RecognizeMode.Multiple);
             btnStop.Enabled = true;
             btnStart.Enabled = false;
