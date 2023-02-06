@@ -91,6 +91,27 @@ void loop() {
       delay(200);
       digitalWrite(greenLed, LOW);
       break;
-      
+
+      case 'N':
+      int n = 0;
+      while (n < 3){
+      digitalWrite(blueLed, HIGH);
+      delay(100);
+      digitalWrite(blueLed, LOW);
+      delay(100);
+      digitalWrite(redLed, HIGH);
+      delay(100);
+      digitalWrite(redLed, LOW);
+      delay(100);
+      digitalWrite(greenLed, HIGH);
+      delay(100);
+      digitalWrite(greenLed, LOW);
+      digitalWrite(redLed, HIGH);
+      delay(100);
+      digitalWrite(redLed, LOW);
+      delay(100);
+      n = n + 1;
+      }
+      break;
   }
 }
