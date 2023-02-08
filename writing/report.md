@@ -56,7 +56,6 @@ For this agent, the actuator is the led lights. These are what produce the corre
 
 The sensor for this agent is the microphone as it is the hardware that takes in user input. It listens for the user to tell it what to do, and waits for the user to do so.
 
-
 ## Challenges and Learning Experiences
 
 Discuss any challenges you have encountered during the work on this lab and  describe what have you learned.
