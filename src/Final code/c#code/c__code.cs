@@ -1,7 +1,3 @@
-/*
-  This Program is to connect c# and Arduino to transmit data from computer microphone to arduino board
-  By Jalal Mansoori
-*/
 using System;
 using System.Windows.Forms;
 using System.IO.Ports; // This library is for connecting c# and Arduino to transmit and receive data through ports

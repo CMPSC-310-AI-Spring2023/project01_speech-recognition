@@ -97,30 +97,29 @@ namespace CsharpCode
                     sendDataToArduino('F');
                     break;
 
-                //Program will talk back
                 case "Good Bye":
                     //Console.WriteLine("Bye");
-                    ss.SpeakAsync("Good Bye see you again"); // speech synthesis object is used for this purpose
+                    ss.SpeakAsync("Good Bye see you again"); 
                     break;
 
                 case "Hello":
-                    ss.SpeakAsync("Hello user"); // speech synthesis object is used for this purpose
+                    ss.SpeakAsync("Hello user"); 
                     break;
 
                 case "Good morning":
-                    ss.SpeakAsync("Good morning user"); // speech synthesis object is used for this purpose
-                    ss.SpeakAsync("All light on"); // speech synthesis object is used for this purpose
+                    ss.SpeakAsync("Good morning user"); 
+                    ss.SpeakAsync("All light on"); 
                     sendDataToArduino('V');
                     break;
 
                 case "Good night":
-                    ss.SpeakAsync("Good night user"); // speech synthesis object is used for this purpose
-                    ss.SpeakAsync("All light off"); // speech synthesis object is used for this purpose
+                    ss.SpeakAsync("Good night user"); 
+                    ss.SpeakAsync("All light off"); 
                     sendDataToArduino('M');
                     break;
 
                 case "Demo One":
-                    ss.SpeakAsync("Playing"); // speech synthesis object is used for this purpose
+                    ss.SpeakAsync("Playing"); 
                     sendDataToArduino('N');
                     break;
 
