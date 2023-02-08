@@ -4,20 +4,11 @@
 
 ### Timeline
 
-<<<<<<< HEAD
-| Timeline        | Tasks            |
-| --------------- | ---------------- |
-| January 27th    | project planning |
-| February 1st    | receive material and start assembling things on the ardunio board |
-| February 5st    | adding code to the project |
-| January 27th    | project planning |
-=======
 | Timeline  | Tasks |
 | ----------- | ----------- |
 |   Feb 1st   |    Build adruino board      |
 |   Feb 6th   |    Complete Software / Code |
 |   Feb 8th   |    Complete written section |
->>>>>>> 8c07de34d17ca15c245442f98ff5316c42ee00ea
 
 ### Hardware
 
