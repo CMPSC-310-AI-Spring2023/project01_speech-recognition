@@ -92,6 +92,7 @@ namespace CsharpCode
                     sendDataToArduino('M');
                     break;
 
+                // We add our code here    
                 case "Show off":
                     sendDataToArduino('F');
                     break;
@@ -122,10 +123,6 @@ namespace CsharpCode
                     ss.SpeakAsync("Playing"); // speech synthesis object is used for this purpose
                     sendDataToArduino('N');
                     break;
-
-
-
-
 
                 // To Exit Program using Voice :)
                 case "Exit":
