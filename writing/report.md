@@ -6,43 +6,35 @@
 
 | Timeline  | Tasks |
 | ----------- | ----------- |
-|   Feb 1st   |    Build adruino board      |
+|   Feb 1st   |    Build arduino board      |
 |   Feb 6th   |    Complete Software / Code |
 |   Feb 8th   |    Complete written section |
 
 ### Hardware
 
-:
+- [Arduino board](https://docs.arduino.cc/hardware/due)
 
-- Arduino board: https://docs.arduino.cc/hardware/due
-
-- LED. https://www.amazon.com/DiCUNO-450pcs-Colors-Emitting-Assorted/dp/B073QMYKDM/ref=sr_1_3?keywords=arduino+led&qid=1674678564&sr=8-3
+- [LED](https://www.amazon.com/DiCUNO-450pcs-Colors-Emitting-Assorted/dp/B073QMYKDM/ref=sr_1_3?keywords=arduino+led&qid=1674678564&sr=8-3)
 
 - 220 ohm resistor
 
 - hook-up wires
 
-- SparkFun Electret Microphone Breakout https://www.sparkfun.com/products/12758
+- [SparkFun Electret Microphone Breakout](https://www.sparkfun.com/products/12758)
 
-- SparkFun Mono Audio Amp Breakout https://www.hackster.io/products/buy/7027?s=BAhJIhIxNTg4OCxQcm9qZWN0BjoGRUY%3D%0A
+- [SparkFun Mono Audio Amp Breakout](https://www.hackster.io/products/buy/7027?s=BAhJIhIxNTg4OCxQcm9qZWN0BjoGRUY%3D%0A)
 
-- Speaker: 0.25W, 8 ohms https://www.hackster.io/products/buy/277?s=BAhJIhIxNTg4OCxQcm9qZWN0BjoGRUY%3D%0A
+- [Speaker: 0.25W, 8 ohms](https://www.hackster.io/products/buy/277?s=BAhJIhIxNTg4OCxQcm9qZWN0BjoGRUY%3D%0A)
 
-- Breadboard (generic) https://www.hackster.io/products/buy/42749?s=BAhJIhIxNTg4OCxQcm9qZWN0BjoGRUY%3D%0A
+- [Breadboard (generic)](https://www.hackster.io/products/buy/42749?s=BAhJIhIxNTg4OCxQcm9qZWN0BjoGRUY%3D%0A)
 
 ## Arduino Project
 
-:
 Describe the application you have chosen to develop and provide a motivation for why it is a useful application. Include  references of all sources you have used throughout this project (URLs are sufficient).
 
 The application we have decided to develop utilizes a mic and led to allow the user to say a voice command. The application then uses a C Sharp program for speech to text, and passes the text to the Arduino project. This is a useful application as it utilizes the LEDS and microphone to achieve its purpose. This lets us learn how to interact with both of these inputs/outputs on the Arduino board.
 
-https://docs.arduino.cc/built-in-examples/basics/Fade
-
-https://www.hackster.io/msb4180/speech-recognition-and-synthesis-with-arduino-2f0363
-
-Final Deliverable Tutorial Used:
-https://medium.com/illumination/how-to-make-your-first-voice-project-using-arduino-956bfd494947
+[Final Deliverable Tutorial Used](https://medium.com/illumination/how-to-make-your-first-voice-project-using-arduino-956bfd494947)
 
 ## Agent
 
@@ -50,7 +42,7 @@ Explain the characteristics/attributes of your agent, what makes it an agent (wi
 
 - Performance Measure:
 
-The performance of the agent can be quantified by the success it has when interpreting  
+The performance of the agent can be quantified by the success it has when interpreting
 
 - Environment:
 
